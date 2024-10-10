@@ -66,13 +66,16 @@ nav {
   margin: 0 auto;
 }
 .banner-btn {
+  margin-top: 32px;
+}
+.banner-btn a {
+  text-decoration: none;
+  color: #fff;
   background-color: #0d1321;
   padding: 21px 24px;
   border-radius: 8px;
-  color: #fff;
   font-size: 20px;
   font-weight: 600;
-  margin-top: 32px;
 }
 /* development section style */
 .development {
@@ -327,4 +330,23 @@ nav {
   font-weight: 600;
   padding: 17px 20px;
   border-radius: 8px;
+}
+/* footer section */
+.footer {
+  background: rgba(13, 19, 33, 0.03);
+  border-radius: 16px 16px 0 0;
+}
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 32px 0;
+}
+.footer-title {
+  color: #0d1321;
+  font-size: 20px;
+  font-weight: 600;
+}
+.footer-icon-mr {
+  margin: 0 24px;
 }
